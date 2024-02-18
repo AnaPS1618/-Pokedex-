@@ -10,6 +10,6 @@ Utilizando a HTML, CSS, Sass e JavaScript, foi possivel dar forma a minha primei
 
 <img src='./img/pokédex-img-2.png' alt='img1' width='550px' height='80px'/>
 
-<img src='./img/pokédex-img-1.png' alt='img1' width='250px' height='60px'/>
+<img src='./img/pokédex-img-1.png' alt='img1' width='550px' height='700px'/>
 
 
