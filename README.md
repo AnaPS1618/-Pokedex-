@@ -7,7 +7,7 @@
 <hr>
 
 Utilizando a HTML, CSS, Sass e JavaScript, foi possivel dar forma a minha primeira pokédex. Com uma interface simples, a navegação é de fácil entendimento.
-Intereja pelo <a href='https://anasouza.top/src_05/index.html' target='_blank'>LINK</>
+Intereja pelo <a href='https://anasouza.top/src_05/index.html' target='_blank'>LINK</a>
 
 ## **Desktop:**
 
