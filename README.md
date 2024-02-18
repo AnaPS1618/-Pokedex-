@@ -14,4 +14,4 @@ Utilizando a HTML, CSS, Sass e JavaScript, foi possivel dar forma a minha primei
 
 ## **Mobile:**
 
-<img src='./img/pokédex-img-4.png' alt='img1' width='550px' height='700px'/>
+<img src='./img/pokédex-img-4.png' alt='img1' width='3600px' height='700px'/>
