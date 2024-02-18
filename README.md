@@ -13,6 +13,8 @@ Intereja pelo <a href='https://anasouza.top/src_05/index.html' target='_blank'>L
 
 <img src='./img/pokédex-img-1.png' alt='img1' width='550px' height='700px'/>
 
+<img src='./img/pokédex-img-3.png' alt='img1' width='550px' height='700px'/>
+
 ## **Mobile:**
 
 <img src='./img/pokédex-img-4.png' alt='img1' width='360px' height='700px'/>
