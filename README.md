@@ -1,6 +1,6 @@
 ## Pokédex
 
-### Com 151 pokemons disponiveis, pesquise por número ou nome e conheça as informações básicas disponibilizadas de cada um direto da PokéAPI!
+### Com 151 pokemons disponiveis, pesquise por número ou nome e conheça as informações básicas disponibilizadas de cada um utilizando PokéAPI!
 
 **Responsivo desde desktops para mobile.**
 
