@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html, body {
+  width: 100%;
+}
+
+:root {
+  --img-list-item-transform: scale(1.1);
+}
+
+.header-inicio {
+  width: 100%;
+  height: auto;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header-inicio .logo-pokemon img {
+  width: 80px;
+}
+.header-inicio .title-poke-inicio {
+  font-size: 50px;
+  font-family: "Protest Riot", sans-serif;
+  color: white;
+  text-shadow: 1px -1px 4px rgba(0, 0, 0, 0.63);
+}
+.header-inicio .search-wrap {
+  width: 250px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.header-inicio .search-wrap input {
+  outline: none;
+  border: none;
+}
+.header-inicio .search-wrap .search-close-icon {
+  cursor: pointer;
+}
+.header-inicio .filter-wrapper {
+  width: 250px;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+.header-inicio .filter-wrapper .filter-wrap {
+  display: flex;
+}
+.header-inicio .filter-wrapper .filter-wrap input {
+  margin: 0 10px;
+}
+
+.pokemon-list {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+}
+.pokemon-list .list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-item {
+  width: 250px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -1px -1px 12px -1px rgba(0, 0, 0, 0.79);
+  -webkit-box-shadow: -1px -1px 12px -1px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: -1px -1px 12px -1px rgba(0, 0, 0, 0.79);
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+.list-item .number-wrap p {
+  float: right;
+  font-family: "Protest Riot", sans-serif;
+}
+.list-item .img-wrap img {
+  width: 100px;
+  height: 100px;
+}
+.list-item .name-wrap p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.list-item:hover {
+  -webkit-transform: var(--img-list-item-transform);
+  transform: var(--img-list-item-transform);
+  padding: 5px;
+}
+
+.detail-main .header {
+  padding: 20px 20px 24px 20px;
+  position: relative;
+  z-index: 2;
+}
+.detail-main .header-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+}
+.detail-main .header-wrapper p {
+  fill: white;
+  color: white;
+}
+.detail-main .header-wrapper h1 {
+  fill: white;
+  color: white;
+}
+.detail-main .name-id-pokemon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.detail-main .back-btn-wrap {
+  max-height: 32px;
+}
+.detail-main .back-btn-wrap path {
+  fill: white;
+  color: white;
+}
+.detail-main p {
+  font-weight: 700;
+}
+.detail-main .featured-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail-main .featured-img #rightArrow {
+  position: relative;
+}
+.detail-main .featured-img .detail-bg {
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  top: 20%;
+}
+.detail-main .featured-img .detail-img-wrapper {
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  position: relative;
+  top: 5px;
+  z-index: 3;
+}
+.detail-main .featured-img .detail-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.detail-main .detail-card-detail-wrapper {
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+  padding: 56px 20px 20px 20px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.detail-main .power-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.detail-main .power-wrapper p {
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+}
+.detail-main .about-text {
+  margin: 20px 0;
+}
+.detail-main .pokemon-detail-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.detail-main .pokemon-detail-wrapper .pokemon-detail-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid black;
+  padding: 0 20px 0 10px;
+}
+.detail-main .pokemon-detail-wrapper .pokemon-detail-wrap img {
+  width: 50px;
+  height: 50px;
+}
+.detail-main .pokemon-description {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+}
+.detail-main .body2-fonts {
+  font-size: 25px;
+  font-family: "Protest Riot", sans-serif;
+}
+.detail-main .stats-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.detail-main .stats-wrap p {
+  min-width: 50px;
+}
+.detail-main .stats-wrap progress {
+  width: 350px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-inicio {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .header-inicio .logo-pokemon img {
+    width: 80px;
+    padding: 0 20px 0 0;
+  }
+  .header-inicio .title-poke-inicio {
+    font-size: 50px;
+    font-family: "Protest Riot", sans-serif;
+    color: white;
+    text-shadow: 1px -1px 4px rgba(0, 0, 0, 0.63);
+  }
+  .header-inicio .search-wrap {
+    width: 250px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  .header-inicio .search-wrap input {
+    outline: none;
+    border: none;
+  }
+  .header-inicio .search-wrap .search-close-icon {
+    cursor: pointer;
+  }
+  .header-inicio .filter-wrapper {
+    width: 250px;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    color: white;
+  }
+  .header-inicio .filter-wrapper .filter-wrap {
+    display: flex;
+  }
+  .header-inicio .filter-wrapper .filter-wrap input {
+    margin: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
